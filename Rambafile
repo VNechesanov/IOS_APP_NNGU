@@ -1,0 +1,22 @@
+### Headers settings
+company: NNGU
+
+### Xcode project settings
+project_name: NNGU
+xcodeproj_path: NNGU.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: NNGUTests
+
+# The file path for new modules
+project_file_path: NNGU/Module
+
+# The Xcode group path to new modules
+project_group_path: NNGU/Module
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
