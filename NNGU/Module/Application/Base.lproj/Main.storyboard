@@ -29,7 +29,7 @@
                                     <segue destination="zEu-QU-aqz" kind="presentation" modalPresentationStyle="fullScreen" id="KJa-H0-n13"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen" translatesAutoresizingMaskIntoConstraints="NO" id="M9k-tr-U36">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question" translatesAutoresizingMaskIntoConstraints="NO" id="M9k-tr-U36">
                                 <rect key="frame" x="55" y="104" width="304" height="304"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="304" id="6Ff-kV-xjZ"/>
@@ -113,6 +113,6 @@
     </scenes>
     <resources>
         <image name="circleButton" width="1270" height="1280"/>
-        <image name="pen" width="512" height="512"/>
+        <image name="question" width="723" height="1280"/>
     </resources>
 </document>
