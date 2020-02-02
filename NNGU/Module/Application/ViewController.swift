@@ -15,15 +15,5 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        setUpPrefButton.setImage(UIImage(named: ""), for: .normal)
-    }
-
-    @IBAction func setPrefButtonPressed(_ sender: Any) {
-        setUpPrefButton.setImage(UIImage(named: ""), for: .normal)
-    }
 }
 
