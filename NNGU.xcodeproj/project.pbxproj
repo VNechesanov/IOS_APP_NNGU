@@ -139,8 +139,6 @@
 			children = (
 				1BA32D1F23E33FBE006DDAA6 /* AppDelegate.swift */,
 				1BA32D2123E33FBE006DDAA6 /* SceneDelegate.swift */,
-				1BA32D2323E33FBE006DDAA6 /* ViewController.swift */,
-				1BA32D2523E33FBE006DDAA6 /* Main.storyboard */,
 				1BA32D2823E33FC0006DDAA6 /* Assets.xcassets */,
 				1BA32D2A23E33FC0006DDAA6 /* LaunchScreen.storyboard */,
 				1BA32D2D23E33FC0006DDAA6 /* Info.plist */,
@@ -167,6 +165,15 @@
 			path = NNGUUITests;
 			sourceTree = "<group>";
 		};
+		1BA32D6123E63FDC006DDAA6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1BA32D2323E33FBE006DDAA6 /* ViewController.swift */,
+				1BA32D2523E33FBE006DDAA6 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		31A79FCA283AA7952FB1789B /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +197,7 @@
 		A072B1B6CBB664C442DADC91 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1BA32D6123E63FDC006DDAA6 /* Application */,
 				E12DE4A1AF2237E2BD8633AF /* UserPreferences */,
 			);
 			path = Module;

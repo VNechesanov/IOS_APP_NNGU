@@ -14,13 +14,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpPrefButton.layer.cornerRadius = 15
-        setUpPrefButton.clipsToBounds = true
-        setUpPrefButton.layer.borderWidth = 1
-        setUpPrefButton.layer.borderColor = UIColor.red.cgColor
     }
     
-@IBAction func unwindToStartViewScreen(segue: UIStoryboardSegue) { }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        setUpPrefButton.setImage(UIImage(named: ""), for: .normal)
+    }
 
+    @IBAction func setPrefButtonPressed(_ sender: Any) {
+        setUpPrefButton.setImage(UIImage(named: ""), for: .normal)
+    }
 }
 
