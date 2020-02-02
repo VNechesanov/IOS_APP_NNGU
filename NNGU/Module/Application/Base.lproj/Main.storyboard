@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NNGU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7X-5P-me7">
+                                <rect key="frame" x="20" y="513" width="159" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="0fc-mz-9ws"/>
+                                    <constraint firstAttribute="height" constant="159" id="jgP-wA-L5F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="preferences" backgroundImage="circleButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zEu-QU-aqz" kind="presentation" modalPresentationStyle="fullScreen" id="KJa-H0-n13"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen" translatesAutoresizingMaskIntoConstraints="NO" id="M9k-tr-U36">
+                                <rect key="frame" x="55" y="104" width="304" height="304"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="304" id="6Ff-kV-xjZ"/>
+                                    <constraint firstAttribute="width" constant="304" id="QcV-fm-EPW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qX-Pi-PEc">
+                                <rect key="frame" x="235" y="513" width="159" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="2Nl-fp-cZs"/>
+                                    <constraint firstAttribute="width" constant="159" id="qnv-Du-sKI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                <state key="normal" title="about" backgroundImage="circleButton">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eh1-bJ-Qnc">
+                                <rect key="frame" x="20" y="472" width="374" height="2"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="LfU-Wg-WLC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjx-6w-JwF">
+                                <rect key="frame" x="20" y="711" width="374" height="2"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="zVx-QJ-yDO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92135137320000005" green="0.92549073699999995" blue="0.92950755360000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.79611994019122467" blue="0.63958803057831659" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p7X-5P-me7" secondAttribute="bottom" constant="190" id="7Iv-5M-WgQ"/>
+                            <constraint firstItem="Mjx-6w-JwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AjM-YD-yGN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eh1-bJ-Qnc" secondAttribute="trailing" constant="20" id="CVz-dx-AbA"/>
+                            <constraint firstItem="p7X-5P-me7" firstAttribute="top" secondItem="eh1-bJ-Qnc" secondAttribute="bottom" constant="39" id="Ewi-w4-YWu"/>
+                            <constraint firstItem="p7X-5P-me7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Osx-PR-ljU"/>
+                            <constraint firstItem="eh1-bJ-Qnc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PDW-3A-pyx"/>
+                            <constraint firstItem="M9k-tr-U36" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="dCq-Ta-xPv"/>
+                            <constraint firstItem="Mjx-6w-JwF" firstAttribute="top" secondItem="p7X-5P-me7" secondAttribute="bottom" constant="39" id="iMb-LU-fut"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9qX-Pi-PEc" secondAttribute="bottom" constant="190" id="ljg-dn-9bK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mjx-6w-JwF" secondAttribute="trailing" constant="20" id="pTn-id-Nec"/>
+                            <constraint firstItem="eh1-bJ-Qnc" firstAttribute="top" secondItem="M9k-tr-U36" secondAttribute="bottom" constant="64" id="qKg-6y-cTq"/>
+                            <constraint firstItem="M9k-tr-U36" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sEl-6r-lDN"/>
+                            <constraint firstItem="9qX-Pi-PEc" firstAttribute="leading" secondItem="p7X-5P-me7" secondAttribute="trailing" constant="56" id="ss2-hm-1Zp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="setUpPrefButton" destination="p7X-5P-me7" id="uXl-7S-11o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+        <!--userPreferencesID-->
+        <scene sceneID="WC5-ir-VdW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UserPreferences" referencedIdentifier="userPreferencesID" id="zEu-QU-aqz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0hE-f1-L8W"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cq7-bf-o5e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circleButton" width="1270" height="1280"/>
+        <image name="pen" width="512" height="512"/>
+    </resources>
+</document>

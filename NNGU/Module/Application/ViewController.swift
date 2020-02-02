@@ -14,13 +14,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpPrefButton.layer.cornerRadius = 15
-        setUpPrefButton.clipsToBounds = true
-        setUpPrefButton.layer.borderWidth = 1
-        setUpPrefButton.layer.borderColor = UIColor.red.cgColor
     }
-    
-@IBAction func unwindToStartViewScreen(segue: UIStoryboardSegue) { }
-
 }
 
