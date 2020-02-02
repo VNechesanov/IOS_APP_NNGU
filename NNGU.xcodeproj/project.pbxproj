@@ -29,16 +29,43 @@
 		1BA32D5E23E384FF006DDAA6 /* UserPreferencesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48DDB724336DAA23750818 /* UserPreferencesRouter.swift */; };
 		1BA32D5F23E384FF006DDAA6 /* UserPreferencesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926FEC8F2236AEE51916415 /* UserPreferencesConfigurator.swift */; };
 		1BA32D6023E384FF006DDAA6 /* UserPreferencesInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3C0B37BEE9702255BF8CA /* UserPreferencesInitializer.swift */; };
+		1BA32D6323E6BCD3006DDAA6 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D6223E6BCD3006DDAA6 /* About.storyboard */; };
+		1BA32D6423E6C256006DDAA6 /* AboutViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E065D5C4218102B78EE61E /* AboutViewInput.swift */; };
+		1BA32D6523E6C256006DDAA6 /* AboutViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AC119CB1425505DCC69DCE /* AboutViewOutput.swift */; };
+		1BA32D6623E6C256006DDAA6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E5DC736C7EA65C5BA4F42 /* AboutViewController.swift */; };
+		1BA32D6723E6C263006DDAA6 /* AboutModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E387264CDB5471941B48F0 /* AboutModuleInput.swift */; };
+		1BA32D6823E6C263006DDAA6 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166698DE0B2E50BD397D1C3A /* AboutPresenter.swift */; };
+		1BA32D6923E6C263006DDAA6 /* AboutInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EA5BE2584C5BCE684553C0 /* AboutInteractorInput.swift */; };
+		1BA32D6A23E6C263006DDAA6 /* AboutInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7985A0A420D9A91EDFE59C12 /* AboutInteractorOutput.swift */; };
+		1BA32D6B23E6C263006DDAA6 /* AboutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90209A4B1759811C0C16597 /* AboutInteractor.swift */; };
+		1BA32D6C23E6C263006DDAA6 /* AboutRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965ED58F8EADCE628FBCA90D /* AboutRouterInput.swift */; };
+		1BA32D6D23E6C263006DDAA6 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17678D5737A6D65AA5E02281 /* AboutRouter.swift */; };
+		1BA32D6E23E6C263006DDAA6 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEB53F0586C420CAD33FBA8 /* AboutConfigurator.swift */; };
+		1BA32D6F23E6C263006DDAA6 /* AboutInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C6649454570CD9C47DFFD /* AboutInitializer.swift */; };
+		1BA32D7223E76AA9006DDAA6 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D7123E76AA9006DDAA6 /* Slide.xib */; };
+		1BA32D7423E76AB6006DDAA6 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D7323E76AB6006DDAA6 /* Slide.swift */; };
+		2454714DB97D6F84C2E512DF /* AboutInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7985A0A420D9A91EDFE59C12 /* AboutInteractorOutput.swift */; };
+		25C78C2763248F92A7DFDE17 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEB53F0586C420CAD33FBA8 /* AboutConfigurator.swift */; };
 		2F2ABFD643B01F360ACAADDB /* UserPreferencesInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3C0B37BEE9702255BF8CA /* UserPreferencesInitializer.swift */; };
 		31A96F5B2FC6F3063B3FC45A /* UserPreferencesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC670A84D1C31D0230609BFD /* UserPreferencesInteractor.swift */; };
+		4EE2B972CEA4E4E71699B9D1 /* AboutModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E387264CDB5471941B48F0 /* AboutModuleInput.swift */; };
+		59A2DDB2728C2234E39A6B38 /* AboutInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EA5BE2584C5BCE684553C0 /* AboutInteractorInput.swift */; };
+		5CB88C5D4A54C2080768C5D5 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17678D5737A6D65AA5E02281 /* AboutRouter.swift */; };
 		6BF32B3B7C888C4CE67EAEE1 /* UserPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570D1327F95A2D455637314C /* UserPreferencesViewController.swift */; };
+		6C3C0DB99AC4E8C1CD679F55 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166698DE0B2E50BD397D1C3A /* AboutPresenter.swift */; };
 		6D52F8FEC2EB3FC8A8D44CEA /* UserPreferencesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD7B3091472CE006EE4427 /* UserPreferencesInteractorOutput.swift */; };
 		88756AE06C31C8001FFD757D /* UserPreferencesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51018BBC7679D2C29123881 /* UserPreferencesRouterInput.swift */; };
+		8AB19AEF21DA398D0247D778 /* AboutViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AC119CB1425505DCC69DCE /* AboutViewOutput.swift */; };
+		96EC301ACA53BBABAC3EEF36 /* AboutViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E065D5C4218102B78EE61E /* AboutViewInput.swift */; };
 		99C1D130B0F429CBAC45BEB7 /* UserPreferencesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8755AA36BA0D3FA70701BE /* UserPreferencesInteractorInput.swift */; };
+		A8E0ED7E06C6124154B0C2CE /* AboutInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065C6649454570CD9C47DFFD /* AboutInitializer.swift */; };
+		AAC916D2FD26F72BD5060CFA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505E5DC736C7EA65C5BA4F42 /* AboutViewController.swift */; };
 		B09BABECE193F63DD32B2A8B /* UserPreferencesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334919A8CAFF480A18906820 /* UserPreferencesViewOutput.swift */; };
+		B2F421867FFA1C4BBB8F4257 /* AboutRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965ED58F8EADCE628FBCA90D /* AboutRouterInput.swift */; };
 		DDA3DFD8A56439EBCC51C17E /* UserPreferencesModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC33A5045368E5230BF4DE4 /* UserPreferencesModuleInput.swift */; };
 		E19A744AB632F3FA9D40902A /* UserPreferencesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B927C391264C52F675D3C /* UserPreferencesViewInput.swift */; };
 		E8EC98831994EE5701481EBA /* UserPreferencesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926FEC8F2236AEE51916415 /* UserPreferencesConfigurator.swift */; };
+		F35F021614AD11C76E78AD66 /* AboutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90209A4B1759811C0C16597 /* AboutInteractor.swift */; };
 		FAB537C4DED1CACC26F2DC21 /* UserPreferencesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB6CF289D46185377EB433 /* UserPreferencesPresenter.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +87,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065C6649454570CD9C47DFFD /* AboutInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutInitializer.swift; sourceTree = "<group>"; };
 		12CD7B3091472CE006EE4427 /* UserPreferencesInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesInteractorOutput.swift; sourceTree = "<group>"; };
+		166698DE0B2E50BD397D1C3A /* AboutPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
+		17678D5737A6D65AA5E02281 /* AboutRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
 		1BA32D1C23E33FBE006DDAA6 /* NNGU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNGU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA32D1F23E33FBE006DDAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BA32D2123E33FBE006DDAA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,16 +106,28 @@
 		1BA32D4123E33FC0006DDAA6 /* NNGUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNGUUITests.swift; sourceTree = "<group>"; };
 		1BA32D4323E33FC0006DDAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA32D5123E37A00006DDAA6 /* UserPreferences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPreferences.storyboard; sourceTree = "<group>"; };
+		1BA32D6223E6BCD3006DDAA6 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		1BA32D7123E76AA9006DDAA6 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		1BA32D7323E76AB6006DDAA6 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		1FC3C0B37BEE9702255BF8CA /* UserPreferencesInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesInitializer.swift; sourceTree = "<group>"; };
 		268B927C391264C52F675D3C /* UserPreferencesViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesViewInput.swift; sourceTree = "<group>"; };
 		334919A8CAFF480A18906820 /* UserPreferencesViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesViewOutput.swift; sourceTree = "<group>"; };
 		3926FEC8F2236AEE51916415 /* UserPreferencesConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesConfigurator.swift; sourceTree = "<group>"; };
+		44E387264CDB5471941B48F0 /* AboutModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutModuleInput.swift; sourceTree = "<group>"; };
 		4DC33A5045368E5230BF4DE4 /* UserPreferencesModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesModuleInput.swift; sourceTree = "<group>"; };
+		505E5DC736C7EA65C5BA4F42 /* AboutViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		570D1327F95A2D455637314C /* UserPreferencesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesViewController.swift; sourceTree = "<group>"; };
+		7985A0A420D9A91EDFE59C12 /* AboutInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutInteractorOutput.swift; sourceTree = "<group>"; };
+		965ED58F8EADCE628FBCA90D /* AboutRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutRouterInput.swift; sourceTree = "<group>"; };
+		BEEB53F0586C420CAD33FBA8 /* AboutConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutConfigurator.swift; sourceTree = "<group>"; };
 		C51018BBC7679D2C29123881 /* UserPreferencesRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesRouterInput.swift; sourceTree = "<group>"; };
+		D1AC119CB1425505DCC69DCE /* AboutViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutViewOutput.swift; sourceTree = "<group>"; };
+		D9E065D5C4218102B78EE61E /* AboutViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutViewInput.swift; sourceTree = "<group>"; };
 		DD48DDB724336DAA23750818 /* UserPreferencesRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesRouter.swift; sourceTree = "<group>"; };
+		E90209A4B1759811C0C16597 /* AboutInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutInteractor.swift; sourceTree = "<group>"; };
 		EB8755AA36BA0D3FA70701BE /* UserPreferencesInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesInteractorInput.swift; sourceTree = "<group>"; };
 		F3CB6CF289D46185377EB433 /* UserPreferencesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesPresenter.swift; sourceTree = "<group>"; };
+		F6EA5BE2584C5BCE684553C0 /* AboutInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutInteractorInput.swift; sourceTree = "<group>"; };
 		FC670A84D1C31D0230609BFD /* UserPreferencesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserPreferencesInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +156,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038691EABB1E8534A58D6B63 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				965ED58F8EADCE628FBCA90D /* AboutRouterInput.swift */,
+				17678D5737A6D65AA5E02281 /* AboutRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1777F68865E1F47AC9C4FF0E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				44E387264CDB5471941B48F0 /* AboutModuleInput.swift */,
+				166698DE0B2E50BD397D1C3A /* AboutPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		1BA32D1323E33FBE006DDAA6 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +234,15 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		1BA32D7023E76A7E006DDAA6 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				1BA32D7123E76AA9006DDAA6 /* Slide.xib */,
+				1BA32D7323E76AB6006DDAA6 /* Slide.swift */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
 		31A79FCA283AA7952FB1789B /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +250,30 @@
 				334919A8CAFF480A18906820 /* UserPreferencesViewOutput.swift */,
 				570D1327F95A2D455637314C /* UserPreferencesViewController.swift */,
 				1BA32D5123E37A00006DDAA6 /* UserPreferences.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75CB66627D0A28F0A4F3078D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				1BA32D7023E76A7E006DDAA6 /* Slide */,
+				75CCAF11C27B61DCC30D68DB /* View */,
+				1777F68865E1F47AC9C4FF0E /* Presenter */,
+				FA9F1B504F8DAE3751322EF4 /* Interactor */,
+				038691EABB1E8534A58D6B63 /* Router */,
+				D56676F7D280EE8EC8E7A31B /* Configurator */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		75CCAF11C27B61DCC30D68DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9E065D5C4218102B78EE61E /* AboutViewInput.swift */,
+				D1AC119CB1425505DCC69DCE /* AboutViewOutput.swift */,
+				505E5DC736C7EA65C5BA4F42 /* AboutViewController.swift */,
+				1BA32D6223E6BCD3006DDAA6 /* About.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,8 +292,18 @@
 			children = (
 				1BA32D6123E63FDC006DDAA6 /* Application */,
 				E12DE4A1AF2237E2BD8633AF /* UserPreferences */,
+				75CB66627D0A28F0A4F3078D /* About */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		D56676F7D280EE8EC8E7A31B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB53F0586C420CAD33FBA8 /* AboutConfigurator.swift */,
+				065C6649454570CD9C47DFFD /* AboutInitializer.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		E12DE4A1AF2237E2BD8633AF /* UserPreferences */ = {
@@ -231,6 +334,16 @@
 				DD48DDB724336DAA23750818 /* UserPreferencesRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		FA9F1B504F8DAE3751322EF4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA5BE2584C5BCE684553C0 /* AboutInteractorInput.swift */,
+				7985A0A420D9A91EDFE59C12 /* AboutInteractorOutput.swift */,
+				E90209A4B1759811C0C16597 /* AboutInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		FB8FAB653BBF3B9B924811AC /* Interactor */ = {
@@ -348,9 +461,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BA32D2C23E33FC0006DDAA6 /* LaunchScreen.storyboard in Resources */,
+				1BA32D6323E6BCD3006DDAA6 /* About.storyboard in Resources */,
 				1BA32D2923E33FC0006DDAA6 /* Assets.xcassets in Resources */,
 				1BA32D5223E37A00006DDAA6 /* UserPreferences.storyboard in Resources */,
 				1BA32D2723E33FBE006DDAA6 /* Main.storyboard in Resources */,
+				1BA32D7223E76AA9006DDAA6 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +490,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA32D6723E6C263006DDAA6 /* AboutModuleInput.swift in Sources */,
+				1BA32D6823E6C263006DDAA6 /* AboutPresenter.swift in Sources */,
+				1BA32D6923E6C263006DDAA6 /* AboutInteractorInput.swift in Sources */,
+				1BA32D6A23E6C263006DDAA6 /* AboutInteractorOutput.swift in Sources */,
+				1BA32D6B23E6C263006DDAA6 /* AboutInteractor.swift in Sources */,
+				1BA32D6C23E6C263006DDAA6 /* AboutRouterInput.swift in Sources */,
+				1BA32D6D23E6C263006DDAA6 /* AboutRouter.swift in Sources */,
+				1BA32D6E23E6C263006DDAA6 /* AboutConfigurator.swift in Sources */,
+				1BA32D6F23E6C263006DDAA6 /* AboutInitializer.swift in Sources */,
+				1BA32D6423E6C256006DDAA6 /* AboutViewInput.swift in Sources */,
+				1BA32D6523E6C256006DDAA6 /* AboutViewOutput.swift in Sources */,
+				1BA32D7423E76AB6006DDAA6 /* Slide.swift in Sources */,
+				1BA32D6623E6C256006DDAA6 /* AboutViewController.swift in Sources */,
 				1BA32D5823E384FF006DDAA6 /* UserPreferencesModuleInput.swift in Sources */,
 				1BA32D5923E384FF006DDAA6 /* UserPreferencesPresenter.swift in Sources */,
 				1BA32D5A23E384FF006DDAA6 /* UserPreferencesInteractorInput.swift in Sources */,
@@ -410,6 +538,18 @@
 				0AF0894237A9B076F8BD25F3 /* UserPreferencesRouter.swift in Sources */,
 				E8EC98831994EE5701481EBA /* UserPreferencesConfigurator.swift in Sources */,
 				2F2ABFD643B01F360ACAADDB /* UserPreferencesInitializer.swift in Sources */,
+				96EC301ACA53BBABAC3EEF36 /* AboutViewInput.swift in Sources */,
+				8AB19AEF21DA398D0247D778 /* AboutViewOutput.swift in Sources */,
+				AAC916D2FD26F72BD5060CFA /* AboutViewController.swift in Sources */,
+				4EE2B972CEA4E4E71699B9D1 /* AboutModuleInput.swift in Sources */,
+				6C3C0DB99AC4E8C1CD679F55 /* AboutPresenter.swift in Sources */,
+				59A2DDB2728C2234E39A6B38 /* AboutInteractorInput.swift in Sources */,
+				2454714DB97D6F84C2E512DF /* AboutInteractorOutput.swift in Sources */,
+				F35F021614AD11C76E78AD66 /* AboutInteractor.swift in Sources */,
+				B2F421867FFA1C4BBB8F4257 /* AboutRouterInput.swift in Sources */,
+				5CB88C5D4A54C2080768C5D5 /* AboutRouter.swift in Sources */,
+				25C78C2763248F92A7DFDE17 /* AboutConfigurator.swift in Sources */,
+				A8E0ED7E06C6124154B0C2CE /* AboutInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,6 +46,9 @@
                                 <state key="normal" title="about" backgroundImage="circleButton">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jNW-9W-n1t" kind="presentation" modalPresentationStyle="fullScreen" id="1sY-q7-8yv"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eh1-bJ-Qnc">
                                 <rect key="frame" x="20" y="472" width="374" height="2"/>
@@ -97,7 +100,15 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cq7-bf-o5e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="764" y="130"/>
+            <point key="canvasLocation" x="757" y="35"/>
+        </scene>
+        <!--aboutID-->
+        <scene sceneID="rjo-A9-upB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="About" referencedIdentifier="aboutID" id="jNW-9W-n1t" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rkY-z9-Mn0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="214"/>
         </scene>
     </scenes>
     <resources>
