@@ -8,10 +8,5 @@
 
 protocol UserPreferencesViewOutput {
 
-    /**
-        @author vladimir
-        Notify presenter that view is ready
-    */
-
     func viewIsReady()
 }

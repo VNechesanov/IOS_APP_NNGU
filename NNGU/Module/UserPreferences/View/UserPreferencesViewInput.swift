@@ -7,11 +7,7 @@
 //
 
 protocol UserPreferencesViewInput: class {
-
-    /**
-        @author vladimir
-        Setup initial state of the view
-    */
-
+    func showBaseExpensesCollect(_ collect: [Constants.BaseExpenses])
+    func showEntertainmentExpensesCollect(_ collect: [Constants.EntertainmentExpenses])
     func setupInitialState()
 }

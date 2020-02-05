@@ -11,8 +11,10 @@ class UserPreferencesPresenter: UserPreferencesModuleInput, UserPreferencesViewO
     weak var view: UserPreferencesViewInput!
     var interactor: UserPreferencesInteractorInput!
     var router: UserPreferencesRouterInput!
-
+    
     func viewIsReady() {
-
+        view.showBaseExpensesCollect([Constants.BaseExpenses.utilities,Constants.BaseExpenses.foodProducts, Constants.BaseExpenses.medicine, Constants.BaseExpenses.clothes,])
+        
+        view.showEntertainmentExpensesCollect([Constants.EntertainmentExpenses.cinema, Constants.EntertainmentExpenses.fastFood, Constants.EntertainmentExpenses.museums, Constants.EntertainmentExpenses.taxi, Constants.EntertainmentExpenses.traveling])
     }
 }
