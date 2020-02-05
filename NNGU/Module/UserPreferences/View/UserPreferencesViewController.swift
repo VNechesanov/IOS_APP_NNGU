@@ -61,6 +61,7 @@ class UserPreferencesViewController: UIViewController, UserPreferencesViewInput 
         expenseEntertainmentCollection.tag = 2
         
         expensesTextField.returnKeyType = UIReturnKeyType.done
+        expensesTextField.autocorrectionType = .no
         expensesTextField.delegate = self
         
         infoTextView.isHidden = isTextViewHidden
