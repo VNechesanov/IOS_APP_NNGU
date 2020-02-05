@@ -42,21 +42,6 @@ enum Constants {
                 return UIImage(named: "clothes")!
             }
         }
-        
-//        func getSelectedImage(str: String) -> UIImage {
-//            switch str {
-//            case "utilities":
-//                return UIImage(named: "utilitiesSelected")!
-//            case "foodProducts":
-//                return UIImage(named: "foodProductSelected")!
-//            case "medicine":
-//                return UIImage(named: "medicineSelected")!
-//            case "clothes":
-//                return UIImage(named: "clothesSelected")!
-//            default:
-//                return UIImage(named: "clothesSelected")!
-//            }
-//        }
     }
     
     enum EntertainmentExpenses: Int {

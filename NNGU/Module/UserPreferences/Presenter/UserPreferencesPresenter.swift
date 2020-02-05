@@ -13,6 +13,7 @@ class UserPreferencesPresenter: UserPreferencesModuleInput, UserPreferencesViewO
     var router: UserPreferencesRouterInput!
     
     func viewIsReady() {
+        view.setUpPreferences()
         view.showBaseExpensesCollect([Constants.BaseExpenses.utilities,Constants.BaseExpenses.foodProducts, Constants.BaseExpenses.medicine, Constants.BaseExpenses.clothes,])
         
         view.showEntertainmentExpensesCollect([Constants.EntertainmentExpenses.cinema, Constants.EntertainmentExpenses.fastFood, Constants.EntertainmentExpenses.museums, Constants.EntertainmentExpenses.taxi, Constants.EntertainmentExpenses.traveling])

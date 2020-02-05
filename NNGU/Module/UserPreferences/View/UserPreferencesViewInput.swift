@@ -9,5 +9,6 @@
 protocol UserPreferencesViewInput: class {
     func showBaseExpensesCollect(_ collect: [Constants.BaseExpenses])
     func showEntertainmentExpensesCollect(_ collect: [Constants.EntertainmentExpenses])
+    func setUpPreferences()
     func setupInitialState()
 }

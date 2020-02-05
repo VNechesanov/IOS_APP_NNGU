@@ -31,22 +31,6 @@ class UserPreferencesViewController: UIViewController, UserPreferencesViewInput 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        expenseBaseCollection.delegate = self
-        expenseBaseCollection.dataSource = self
-        expenseBaseCollection.allowsMultipleSelection = true
-        expenseBaseCollection.tag = 1
-        
-        expenseEntertainmentCollection.delegate = self
-        expenseEntertainmentCollection.dataSource = self
-        expenseEntertainmentCollection.allowsMultipleSelection = true
-        expenseEntertainmentCollection.tag = 2
-        
-        expensesTextField.returnKeyType = UIReturnKeyType.done
-        expensesTextField.delegate = self
-        
-        infoTextView.isHidden = isTextViewHidden
-        infoTextView.isEditable = false
-        
         output.viewIsReady()
     }
     
@@ -63,6 +47,24 @@ class UserPreferencesViewController: UIViewController, UserPreferencesViewInput 
         if entertainmentHeight != 0.0 && entertainmentCollectConstraint.constant != entertainmentHeight {
             entertainmentCollectConstraint.constant = entertainmentHeight
         }
+    }
+    
+    func setUpPreferences() {
+        expenseBaseCollection.delegate = self
+        expenseBaseCollection.dataSource = self
+        expenseBaseCollection.allowsMultipleSelection = true
+        expenseBaseCollection.tag = 1
+        
+        expenseEntertainmentCollection.delegate = self
+        expenseEntertainmentCollection.dataSource = self
+        expenseEntertainmentCollection.allowsMultipleSelection = true
+        expenseEntertainmentCollection.tag = 2
+        
+        expensesTextField.returnKeyType = UIReturnKeyType.done
+        expensesTextField.delegate = self
+        
+        infoTextView.isHidden = isTextViewHidden
+        infoTextView.isEditable = false
     }
     
     func showBaseExpensesCollect(_ collect: [Constants.BaseExpenses]) {
