@@ -31,6 +31,9 @@ class AboutViewController: UIViewController, AboutViewInput, UIScrollViewDelegat
         pageController.numberOfPages = slides.count
         pageController.currentPage = 0
         view.bringSubviewToFront(pageController)
+        
+        dismissVerticalScroll(scrollView: scrollView)
+        
         output.viewIsReady()
     }
     
@@ -40,7 +43,7 @@ class AboutViewController: UIViewController, AboutViewInput, UIScrollViewDelegat
 
     func createSlides() -> [Slide] {
         let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-        slide1.imageView.image = UIImage(named: "chest")
+        slide1.imageView.image = UIImage(named: "coin")
         slide1.slideTitle.text = "financial preservation"
         slide1.slideDescription.text = "Description"
         
@@ -66,6 +69,10 @@ class AboutViewController: UIViewController, AboutViewInput, UIScrollViewDelegat
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
         pageController.currentPage = Int(pageIndex)
+    }
+    
+    private func dismissVerticalScroll(scrollView: UIScrollView) {
+        scrollView.contentSize = CGSize(width: self.view.frame.height, height: 1.0)
     }
 
     // MARK: AboutViewInput
