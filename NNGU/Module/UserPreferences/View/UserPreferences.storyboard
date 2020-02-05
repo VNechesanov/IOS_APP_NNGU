@@ -184,7 +184,7 @@
                                     <constraint firstAttribute="height" constant="218" id="4pv-px-hnL"/>
                                     <constraint firstAttribute="width" constant="134" id="za8-zV-jJg"/>
                                 </constraints>
-                                <string key="text">The above list may not contain all types of expenses, so we suggest that you add your own list to your list. You only need to enter them in the field. After entering, click 'done', your expense will be saved, and you can enter the next</string>
+                                <string key="text">The above list may not contain all types of expenses, so we suggest you add yours to the list. You only need to enter them in the field. After entering, click “done” on the keyboard, your expenses name will be saved, and you can enter the following</string>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
